@@ -1,0 +1,13 @@
+<h1 class="text-center"> 
+	Captain Fans Unite!!!
+</h1>
+<%= @posts.each do |post|  %>
+  <div class="lunchbox span3 text-center align-bottom">
+  	<h1>
+  		<%= post.title  %>
+  	</h1>
+  	<p>
+  		<%= post.description %>
+  	</p>
+  </div>
+  <% end %>
