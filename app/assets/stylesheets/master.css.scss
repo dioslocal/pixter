@@ -3,6 +3,7 @@
 	background-color: rgba(36,32,33,0.50);
 	padding: 1%;
 	color: white;
+	margin-bottom: 8px;
 }
 
 body {
@@ -16,7 +17,21 @@ body {
 h1{
 	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, san-serif;
 	color: white;
-	font-weight: 100;
-	font-size: 42px;
+	font-weight: 200;
+	font-size: 35px;
+	line-height: 50px;
+}
+
+label{
+	color: white;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+h2{
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, san-serif;
+	color: white;
+	font-weight: 300;
+	font-size: 20px;
 	line-height: 50px;
 }
