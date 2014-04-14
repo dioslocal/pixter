@@ -1,11 +1,12 @@
 <div class="lunchbox span3 offset1 text-center">
 	<h1> You <br/> and the Captain,<br/> Make it happen...
 	</h1>
-	<br/>
 	<%= simple_form_for @post do |f| %>
 	  <%= f.input :title, label: 'Add a title', placeholder: 'Jack, Kangaroo, Sparrow' %>
 	  <br/>
 	  <%= f.input :description, label: 'What\'s going on?', placeholder: 'On a Boat!, Springbeak Photobomb, Vegas...' %>
+	  <br/>
+	  <%= f.input :image %>
 	  <br/>
 	  <%= f.submit 'Save', :class => 'btn btn-danger' %>
 	<% end %>
